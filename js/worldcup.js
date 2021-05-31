@@ -11,7 +11,7 @@ function show(){
 
     for(i=0; i<8; i++)
     {
-        images[i]= "/images/food/" + (i)+".png";
+        images[i]= "images/food/" + (i)+".png";
     }
     images.sort(function(a,b){return 0.5 - Math.random()});
     showImg(num);
